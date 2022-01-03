@@ -1,0 +1,56 @@
+.modalContainer {
+  width: 50rem;
+  height: 31.25rem;
+  border-radius: 0.75rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1.56rem;
+  margin: 5rem auto;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.desc {
+  padding: 1.56rem 2.5rem;
+  width: 75rem;
+  height: 50rem;
+  top: 40% !important;
+}
+
+.modalContainer h2 {
+  color: rgb(70, 69, 69);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px rgb(70, 69, 69) solid;
+}
+
+.modalContainer p {
+  color: rgb(70, 69, 69);
+  font-size: 1.5rem;
+}
+
+.desc-p {
+  overflow: hidden;
+  line-height: 2rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 20;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.56rem;
+  cursor: pointer;
+}
